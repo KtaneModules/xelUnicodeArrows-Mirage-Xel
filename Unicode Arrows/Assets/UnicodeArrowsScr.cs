@@ -59,8 +59,8 @@ new int[]{no4[rnd.Range(0, 8)], no4[rnd.Range(0, 8)], no4[rnd.Range(0, 8)],  no4
             scrambling = true;
             Swap(rnd.Range(0, 4), rnd.Range(0, 4), -1);
             scrambling = false;
-            Debug.LogFormat("[Unicode Arrows #{0}] Input:", loggingId);
         }
+        Debug.LogFormat("[Unicode Arrows #{0}] Input:", loggingId);
         UpdateArrows();
     }
 
